@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="2" name="endtoend">
+    <classes>
+      <class name="SeleniumFrameworkTutorial.A_01EndtoEndAutomationTestcopy"/>
+    </classes>
+  </test> <!-- Test -->
+      
+       
+    <test thread-count="2" name="dependsonMethod">
+    <classes>
+      <class name="SeleniumFrameworkTutorial.A_04DependsonMethod"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

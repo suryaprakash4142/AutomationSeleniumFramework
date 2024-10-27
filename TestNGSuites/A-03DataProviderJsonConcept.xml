@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="dataprovider"></include>
+		</run>
+	</groups>
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="SeleniumFrameworkTutorial.A_04DependsonMethod"/>
+ 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

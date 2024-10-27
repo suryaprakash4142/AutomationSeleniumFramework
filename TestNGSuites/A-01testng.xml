@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="seleniumframe.datafiles.A_03ExtentTestNGLIsteners"></listener>
+	</listeners>
+	
+	<test thread-count="1" name="A_03Errorvalidations">
+		<classes>
+			<class name="SeleniumFrameworkTutorial.A_03Errorvalidations" />
+		</classes>
+	</test> <!--Test -->
+	
+	<test thread-count="1" name="A_04DependsonMethod">
+		<classes>
+			<class name="SeleniumFrameworkTutorial.A_04DependsonMethod" />
+		</classes>
+	</test> <!--Test -->
+
+
+</suite> <!--
+Suite -->
